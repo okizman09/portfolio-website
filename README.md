@@ -1,35 +1,58 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jecSxI3G)
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
 
-## Overview
+# 💼 Personal Portfolio Website
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
+This project is my submission for the **PLP Academy July 2025 Hackathon 1: Portfolio Challenge**. It is a simple, fully responsive personal portfolio website built using only HTML and CSS.
 
-## Objective
+## 🌟 Features
 
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
+The website is designed to showcase the following:
 
-## Guidelines
+- **👤 About Me**: A brief introduction, including name, background, and personality as a developer.
+- **💻 Programming Languages**: A list of languages I am familiar with, displayed neatly below the About Me section.
+- **🎓 Educational Background**: Academic history with a link to download my CV.
+- **💡 Interests**: Personal interests related to technology and development.
+- **🛠️ Projects**: List of notable projects with descriptions and links to external repositories or hosted projects.
+- **📜 Certifications**: Visual gallery of some certificates earned from training and online learning.
+- **📬 Contact Form**: A clean form for employers, collaborators, or visitors to reach out.
 
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
+## 🖼️ Visual Styling
 
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
+- Uses **modern CSS** for layout, spacing, color theming, shadows, and responsiveness.
+- Profile image is circular and stylishly bordered.
+- Navigation is intuitive and anchored for easy section access.
+- Custom hover effects for links and buttons.
+- "Back to Top" button is centered and responsive.
 
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
+## 🛠️ Technologies Used
 
-## Deliverables
+- HTML5
+- CSS3 (Flexbox, Transitions, Shadows)
+- Font Awesome (for social and contact icons)
 
-A single HTML file named `index.html`. It should include:
+## 📁 Project Structure
 
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
+```
+.
+├── index.html       # Main HTML structure
+├── styles.css       # CSS styling
+├── images/          # Profile picture and certificate images
+├── README.md        # Project documentation
+└── CV.pdf           # Downloadable Curriculum Vitae
+```
 
-## Tips
+## 🚀 Deployment
 
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
+You can view the deployed version of this portfolio on GitHub Pages, Netlify, or any static hosting service.
 
+## 📫 Contact
+
+Feel free to reach out via any of the platforms below:
+
+- 📧 Email: okizmaofficial@gmail.com
+- 🌐 LinkedIn:https://www.linkedin.com/in/abdulrahman-daud-671956243/
+- 🐙 GitHub: https://github.com/okizman09
+
+---
+
+> Built with passion and purpose during the Power Learn Project Hackathon 2025.
+>>>>>>> 86e9592f1346d8fb5c28c3bda19b71a911fc9c4d
