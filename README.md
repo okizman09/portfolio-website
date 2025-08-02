@@ -48,7 +48,7 @@ You can view the deployed version of this portfolio on GitHub Pages, Netlify, or
 
 Feel free to reach out via any of the platforms below:
 
-- 📧 Email: okizmaofficial@gmail.com
+- 📧 Email: okizmanofficial@gmail.com
 - 🌐 LinkedIn:https://www.linkedin.com/in/abdulrahman-daud-671956243/
 - 🐙 GitHub: https://github.com/okizman09
 
