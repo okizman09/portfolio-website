@@ -48,11 +48,10 @@ You can view the deployed version of this portfolio on GitHub Pages, Netlify, or
 
 Feel free to reach out via any of the platforms below:
 
-- 📧 Email: okizmanofficial@gmail.com
+- 📧 Email: okizmaofficial@gmail.com
 - 🌐 LinkedIn:https://www.linkedin.com/in/abdulrahman-daud-671956243/
 - 🐙 GitHub: https://github.com/okizman09
 
 ---
 
 > Built with passion and purpose during the Power Learn Project Hackathon 2025.
->>>>>>> 86e9592f1346d8fb5c28c3bda19b71a911fc9c4d
