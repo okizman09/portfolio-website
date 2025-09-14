@@ -1,57 +1,57 @@
+# 🌐 Abdulrahman Daud – Portfolio Website
 
-# 💼 Personal Portfolio Website
-
-This project is my submission for the **PLP Academy July 2025 Hackathon 1: Portfolio Challenge**. It is a simple, fully responsive personal portfolio website built using only HTML and CSS.
-
-## 🌟 Features
-
-The website is designed to showcase the following:
-
-- **👤 About Me**: A brief introduction, including name, background, and personality as a developer.
-- **💻 Programming Languages**: A list of languages I am familiar with, displayed neatly below the About Me section.
-- **🎓 Educational Background**: Academic history with a link to download my CV.
-- **💡 Interests**: Personal interests related to technology and development.
-- **🛠️ Projects**: List of notable projects with descriptions and links to external repositories or hosted projects.
-- **📜 Certifications**: Visual gallery of some certificates earned from training and online learning.
-- **📬 Contact Form**: A clean form for employers, collaborators, or visitors to reach out.
-
-## 🖼️ Visual Styling
-
-- Uses **modern CSS** for layout, spacing, color theming, shadows, and responsiveness.
-- Profile image is circular and stylishly bordered.
-- Navigation is intuitive and anchored for easy section access.
-- Custom hover effects for links and buttons.
-- "Back to Top" button is centered and responsive.
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3 (Flexbox, Transitions, Shadows)
-- Font Awesome (for social and contact icons)
-
-## 📁 Project Structure
-
-```
-.
-├── index.html       # Main HTML structure
-├── styles.css       # CSS styling
-├── images/          # Profile picture and certificate images
-├── README.md        # Project documentation
-└── CV.pdf           # Downloadable Curriculum Vitae
-```
-
-## 🚀 Deployment
-
-You can view the deployed version of this portfolio on GitHub Pages, Netlify, or any static hosting service.
-
-## 📫 Contact
-
-Feel free to reach out via any of the platforms below:
-
-- 📧 Email: okizmaofficial@gmail.com
-- 🌐 LinkedIn:https://www.linkedin.com/in/abdulrahman-daud-671956243/
-- 🐙 GitHub: https://github.com/okizman09
+This repository contains my **personal portfolio website**, built to showcase my skills, projects, and journey as an aspiring Nigerian web & software developer.  
+It includes both the **Hackathon version (v1)** and the **Improved Responsive version (v2)** with JavaScript enhancements.
 
 ---
 
-> Built with passion and purpose during the Power Learn Project Hackathon 2025.
+## 📂 Project Structure
+- `v1-hackathon/` → Original HTML & CSS portfolio built during **PLP Academy Hackathon (July 2025)**.  
+- `v2-responsive/` → Improved version with **JavaScript interactivity, responsiveness, animations, and better UX**.
+
+---
+
+## 🚀 Live Demo
+🔗 **Responsive Version (v2):** [View on GitHub Pages](https://<your-username>.github.io/<repo-name>/v2-responsive/)  
+📂 **Hackathon Version (v1):** [Browse Source](./v1-hackathon)
+
+---
+
+## ✨ Features in v2
+- Loading screen & smooth navigation.  
+- Responsive mobile-friendly menu.  
+- Light/Dark theme toggle.  
+- Typing animations and section reveals.  
+- Form validation & Formspree integration.  
+- Parallax & hover effects.  
+- Thank-you page with countdown redirect.  
+- Accessibility improvements (keyboard navigation, focus indicators).  
+- Lazy-loading for images & service worker (PWA ready).  
+
+---
+
+## 🛠️ Tech Stack
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6+)**  
+- **Font Awesome** (icons)  
+- **Formspree** (contact form handling)
+
+---
+
+## 📸 Preview
+![Portfolio Preview](./assets/preview.png)
+
+---
+
+## 📄 License
+This project is open-source under the MIT License.  
+Feel free to fork, clone, and customize!
+
+---
+
+## 👤 Author
+**Abdulrahman Daud**  
+- 📧 [Email](mailto:okizmaofficial@gmail.com)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/daudabdulrahmanokikiola/)  
+- 💻 [GitHub](https://github.com/okizman09)

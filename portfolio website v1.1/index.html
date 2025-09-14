@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Abdulrahman Daud | An Aspiring Nigerian Web & Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body id="top">
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </button>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Abdulrahman Daud</div>
+                <button class="menu-toggle" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav id="nav">
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#interests">Interests</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Abdulrahman Daud</h1>
+            <p>Aspiring Web & Software Developer</p>
+            <img src="assets/profilepic.png" 
+                 alt="Portrait of Abdulrahman Daud" class="profile-img">
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Abdulrahman Daud, an aspiring <em>Software Developer</em> from Nigeria with an undeniable passion for technological advancement that best serves humanity. I look forward to building practical tech solutions that truly solve real life problems. Although I am currently a beginner, I have been able to learn some basic programming languages which will be vital to my long-time career growth:</p>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5" style="font-size: 2rem; color: #64b5f6; margin-bottom: 0.5rem;"></i>
+                    <div>HTML</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt" style="font-size: 2rem; color: #64b5f6; margin-bottom: 0.5rem;"></i>
+                    <div>CSS</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js-square" style="font-size: 2rem; color: #64b5f6; margin-bottom: 0.5rem;"></i>
+                    <div>JavaScript</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python" style="font-size: 2rem; color: #64b5f6; margin-bottom: 0.5rem;"></i>
+                    <div>Python</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-terminal" style="font-size: 2rem; color: #64b5f6; margin-bottom: 0.5rem;"></i>
+                    <div>PowerShell</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-linux" style="font-size: 2rem; color: #64b5f6; margin-bottom: 0.5rem;"></i>
+                    <div>Linux</div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database sql-icon" style="font-size: 2rem; color: #64b5f6; margin-bottom: 0.5rem;"></i>
+                    <div>MySQL</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <h2>Educational Background</h2>
+            <div class="education-item">
+                <h3>National Open University of Nigeria</h3>
+                <p><strong>BSC Mathematics and Computer Science</strong></p>
+                <p>2024 - Present</p>
+            </div>
+            <div class="education-item" style="margin-top: 2rem;">
+                <h3>King's College Lagos</h3>
+                <p>2014 - 2020</p>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section" id="certifications">
+            <h2>Certifications</h2>
+            <div class="cert-gallery">
+                <div class="cert-item">
+                    <img src="Assets/Technical%20Support%20Fundamentals.png" alt="Google Technical Support Fundamentals">
+                    <h4>Google Technical Support Fundamentals</h4>
+                </div>
+                <div class="cert-item">
+                    <img src="Assets/The%20Bit%20and%20Bytes%20of%20computer%20networking.png" alt="Computer Networking">
+                    <h4>The Bits and Bytes of Computer Networking</h4>
+                </div>
+                <div class="cert-item">
+                    <img src="Assets/Python%20Programming.png" alt="Python Programming">
+                    <h4>Python Programming: A Concise Introduction</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section class="section" id="interests">
+            <h2>My Interests</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Web Development</div>
+                <div class="skill-item">FinTech</div>
+                <div class="skill-item">Software Development</div>
+                <div class="skill-item">Blockchain Technology</div>
+                <div class="skill-item">EA Programming</div>
+                <div class="skill-item">Software Testing</div>
+                <div class="skill-item">Artificial Intelligence</div>
+                <div class="skill-item">Robotics</div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h4><i class="fas fa-calculator"></i> Python Calculator</h4>
+                    <p>A simple calculator program built with Python featuring basic arithmetic operations.</p>
+                    <a href="https://github.com/okizman09/Python/blob/main/Basic%20calculator2.py" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="project-card">
+                    <h4><i class="fas fa-laugh"></i> Joke Generator</h4>
+                    <p>A random joke generator built with Python that delivers programming and tech-related humor.</p>
+                    <a href="https://github.com/okizman09/Python/blob/main/Joke%20Generator.py" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="project-card">
+                    <h4><i class="fas fa-question-circle"></i> Quiz Game</h4>
+                    <p>An interactive quiz game built with Python featuring multiple categories and scoring system.</p>
+                    <a href="https://github.com/okizman09/Python/blob/main/Quiz%20Game.py" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div style="margin-top: 2rem; text-align: center;">
+                <a href="Assets/CV.pdf" class="btn-primary" download>
+                    <i class="fas fa-file-download"></i> Download My CV
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <h2>Contact Information</h2>
+            
+            <div class="social-links">
+                <a href="mailto:okizmaofficial@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <a href="https://www.linkedin.com/in/abdulrahman-daud-671956243/" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/okizman09" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send Me A Message</h3>
+                <!-- Updated form with Formspree action and proper attributes -->
+                <form id="contactForm" action="https://formspree.io/f/xovnbzyz" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="job">Job Opportunity</option>
+                            <option value="project">Project Inquiry</option>
+                            <option value="freelance">Freelance Work</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project, opportunity, or question..."></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    
+                    <!-- Honeypot field for spam protection -->
+                    <input type="text" name="_gotcha" style="display: none;">
+                    
+                    <!-- Formspree configuration -->
+                    <input type="hidden" name="_next" value="thank-you.html">
+                    <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
+                    <input type="hidden" name="_cc" value="okizmaofficial@gmail.com">
+                    
+                    <button type="submit" class="btn-primary" id="submit-btn">
+                        <span class="btn-text">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Sending...
+                        </span>
+                    </button>
+                </form>
+
+                <!-- Success/Error Messages -->
+                <div id="form-messages" class="form-messages"></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Abdulrahman Daud. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
